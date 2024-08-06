@@ -1,0 +1,21 @@
+<div class="container">
+    @if(arrayfromapp.length==0){
+        <div >
+            <h1 class="silkscreen-bold ">This List is Empty</h1>
+        </div>
+    }
+    @else{
+        <div>
+            <ul >
+                @for(item of arrayfromapp;track item;let index = $index) {
+                <li class="p-3 border-2  border-bottom">
+                    {{item}}
+                    <button type="button" (click)="deleteItem(index)" class="inline-block m-2 btn silkscreen-bold">Delete</button>
+                </li>
+                
+                }
+            </ul>
+        </div>
+    }
+    
+</div>

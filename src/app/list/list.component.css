@@ -1,0 +1,21 @@
+div{
+    background-color: #FFF7C2;
+}
+h1{
+    text-align: center;
+    color: #8CB5B5;
+}
+li{
+    list-style: none;
+    border-color: #8CB5B5;
+    font-size: 3rem;
+    color: rgb(75, 74, 74);
+}
+button{
+    float: right;
+    vertical-align: bottom !important;
+    background-color: transparent;
+    border :3px solid #8CB5B5 !important;
+    padding: 1rem 2rem !important;
+    color: #8CB5B5;
+}
